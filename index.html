@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <h1>Python Documentation</h1>
+      <section class="main-section" id="introduction">
+        <header><h2>Introduction</h2></header>
+        <p>Python is a high-level, interpreted, general-purpose programming language created by Guido van Rossum and first released in 1991. Known for its clear syntax, Python is popular among beginners and experienced developers. It supports multiple programming paradigms including procedural, object-oriented, and functional programming. Python's extensive standard library simplifies many tasks, reducing the need to write code from scratch.</p>
+      </section>
+      <section class="main-section" id="hello_world">
+        <header><h2>Hello World</h2></header>
+        <p>To get started with writing python codes, the first program you should make is to print 'Hello World', here is how you do it:</p>
+        <div class="line"><code>print('Hello World')</code></div>
+        <p>The output of this program would be: <br>Hello World<br> The same way that is written on the print.</p>
+      </section>
+      <section class="main-section" id="data_types">
+        <header><h3>Data Types</h3></header>
+        <p>
+          <ul>
+            <li>Int: 1, 2, 3;</li>
+            <li>Float: 1.2, 7.2;</li>
+            <li>String: "String", "s";</li>
+            <li>Boolean: True, False;</li>
+            <li>Lists: [1, 2, 3] ["Python", "Word"];</li>
+            <li>Tuple: (1, 2, 3) ("Python", "Word");</li>
+            <li>Dicionary: {1, 2, 3}, {"Python", "Word"};</li>
+          </ul>
+        </p>
+      </section>
+       <section class="main-section" id="input">
+        <header><h4>Input</h4></header>
+        <p>In Python, input() is used to capture user input from the console. It pauses program execution, waits for the user to type something.</p>
+        <div class="line"><code>name = str(input('Type your name: '))</code></div>
+        <p>In this case, the variable 'name' will recieve and store a string input from the keyboard.</p>
+      </section>
+      <section class="main-section" id="if_else">
+        <header><h5>If Else</h5></header>
+        <p>In Python, the if else statement is used to execute code based on conditions. The if statement checks a condition; if it's true, the code block under it runs. If false, the else block executes instead. Python also supports elif (short for "else if") to handle multiple conditions. This allows for complex decision-making and control flow in programs, enabling different code paths depending on various conditions.</p>
+        <div class="def"><code>age = 18<br><br>if age >= 18:<br>print('You are an adult!')<br>else:<br>print('You are not an adult yet!')</code></div>
+        <p>The output of this program would be:<br> You are an adult!</p>
+      </section>
+      <section class="main-section" id="loops">
+        <header><h6>Loops</h6></header>
+        <p>In Python, a for loop is used to iterate over a sequence of elements, such as a list, tuple, or range. For example:</p>
+        <div class="loop"><code>for i in range(0, 5):<br>print(i)</code>
+    </div>
+    <p>In this case, the loop would be through numbers 0 to 4 and those numbers in order are the output of the program.</p>
+      </section>
+      <section class="main-section" id="functions">   <header><h7>Functions</h7></header>
+      <p>In Python, functions are blocks of reusable code that perform a specific task. Defined using the def keyword, they can take parameters and return values. Functions help organize code, promote reusability, and improve readability. They encapsulate logic, allowing for modular and maintainable programming.</p>
+      <div class="def"><code>def sum(a, b): <br>soma = a+b<br>print(soma)<br><br>#codigo principal<br>Sum(3, 4)</code></div>
+      <p>The output of this program would be:<br> 7</p>
+      </section>
+      <br>
+    </main>
+    <nav id="navbar">
+      <header class="navhead"><h8>Python</h8></header>
+      <a class="nav-link" href="#introduction">Introduction</a>
+      <a class="nav-link" href="#hello_world">Hello World</a>
+      <a class="nav-link" href="#data_types">Data Types</a>
+      <a class="nav-link" href="#input">Input</a>
+      <a class="nav-link" href="#if_else">If Else</a>
+      <a class="nav-link" href="#loops">Loops</a>
+      <a class="nav-link" href="#functions">Functions</a>
+    </nav>
+  </body>
+</html>
